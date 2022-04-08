@@ -5,19 +5,17 @@
   background-color: #1877f2;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  // justify-content: space-around;
   .brand {
     font-size: 1.6rem;
     font-weight: 900;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 32px 0px;
     gap: 1rem;
-    img {
-      height: 2rem;
-    }
     color: #ffffff;
-    margin: 2rem 0;
+    // margin: 2rem 0;
   }
   .links {
     ul {

@@ -1,4 +1,5 @@
 import React from "react";
+import { ImageSign } from "./ImageSign";
 // import Milestones from "./Milestones";
 import Navbar from "./Navbar";
 // import Revenue from "./Revenue";
@@ -9,9 +10,9 @@ export default function Dashboard() {
     <div className="dashboard">
       <Navbar />
       <div className="grid">
-        {/* <div className="one">
-          <Milestones />
-        </div> */}
+        <div className="one">
+          <ImageSign />
+        </div>
         {/* <div className="two">
           <Revenue />
           <StoreVisits />

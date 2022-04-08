@@ -18,6 +18,9 @@
           border: none;
           color: #ffffff;
           background-color: #1877f2;
+          &::placeholder{
+            color:#fff;
+          }
           &:focus {
             outline: none;
           }
